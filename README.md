@@ -1,6 +1,6 @@
 # PYLOT - PYUSD Intent System
 
-The intent transaction system using PayPal's PYUSD and Google Cloud Platform's blockchain infrastructure for efficient and scalable cross-chain operations.
+Our intent transaction system is using PayPal's PYUSD and Google Cloud Platform's blockchain infrastructure for efficient and scalable cross-chain operations.
 
 ## 🌟 Project Overview
 
