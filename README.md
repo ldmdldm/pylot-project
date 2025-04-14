@@ -1,16 +1,16 @@
 # PYLOT - PYUSD Intent System
 
-A sophisticated intent-based transaction system leveraging PayPal's PYUSD and Google Cloud Platform's blockchain infrastructure for efficient, secure, and scalable cross-chain operations.
+The intent transaction system using PayPal's PYUSD and Google Cloud Platform's blockchain infrastructure for efficient and scalable cross-chain operations.
 
 ## 🌟 Project Overview
 
-PYLOT is an innovative platform that combines PayPal's PYUSD stablecoin with Google Cloud's powerful blockchain infrastructure to create a seamless, user-friendly Web3 payment and analytics system. The project demonstrates the powerful combination of PYUSD's stability and GCP's robust blockchain services.
+PYLOT is a platform that uses PayPal's PYUSD stablecoin with Google Cloud's powerful blockchain infrastructure to create Web3 payment and analytics system. The project demonstrates the powerful combination of PYUSD's stability and GCP's blockchain services.
 
 ## 🚀 Key Features
 
-- Intent-based transaction processing
-- Real-time PYUSD analytics and monitoring
-- Cross-chain PYUSD transfers
+- Intent transaction processing
+- PYUSD analytics and monitoring
+- Cross chain PYUSD transfers
 - Advanced transaction tracing and analysis
 - Automated gas optimization
 - Real-time network congestion monitoring
@@ -43,7 +43,7 @@ PYLOT is an innovative platform that combines PayPal's PYUSD stablecoin with Goo
    - Performance metrics
 
 4. **Google Sheets Integration**
-   - Real-time dashboard updates
+   - Dashboard updates
    - Transaction monitoring
    - Analytics visualization
 
@@ -52,7 +52,7 @@ PYLOT is an innovative platform that combines PayPal's PYUSD stablecoin with Goo
 - Mainnet Contract: `0x6c3ea9036406c282D277Dc14762a4379D5084619`
 - Supported Operations:
   - Direct transfers
-  - Cross-chain swaps
+  - Cross chain swaps
   - Liquidity provision
   - Bridge operations
 
@@ -70,7 +70,7 @@ PYLOT is an innovative platform that combines PayPal's PYUSD stablecoin with Goo
    ```
 
 2. **Network Analysis**
-   - Real-time gas price monitoring
+   - Gas price monitoring
    - Network congestion analysis
    - MEV detection and analysis
    - Cross-chain bridge monitoring
@@ -146,10 +146,10 @@ GCP_ADVANCED_METHODS = {
 }
 ```
 
-## 🌟 Leveraging Google Cloud's Power
+## 🌟 Using Google Cloud's Power
 
-### Advanced Transaction Analysis
-Our system utilizes GCP's unique capabilities to provide deep insights into PYUSD transactions:
+### Transaction Analysis
+Our system uses GCP's capabilities to provide data into PYUSD transactions:
 
 1. **Transaction Tracing with `debug_traceTransaction`**
    ```python
@@ -208,9 +208,9 @@ Our system utilizes GCP's unique capabilities to provide deep insights into PYUS
        return analyze_mev_risks(simulation)
    ```
 
-### Real-time Analytics Pipeline
+### Analytics Pipeline
 
-Our system leverages multiple GCP services in concert:
+Our system uses multiple GCP services in concert:
 
 1. **Data Collection Layer**
    - GCP Blockchain RPC for real-time transaction data
@@ -300,7 +300,7 @@ Our system leverages multiple GCP services in concert:
 Our implementation has achieved:
 - Average response time: <100ms for RPC calls
 - 99.99% uptime for critical services
-- Real-time analytics with <5s delay
+- Analytics with <5s delay
 - Zero data loss in analytics pipeline
 - Successful MEV protection for 99.9% of transactions
 
@@ -346,7 +346,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🏆 Hackathon Submission
 
-This project is submitted for the PayPal and Google Cloud Web3 Hackathon. It demonstrates the powerful combination of PYUSD's stability and security with Google Cloud's robust blockchain infrastructure.
+This project is submitted for the PayPal and Google Cloud Web3 Hackathon. It demonstrates the powerful combination of PYUSD's stability and security with Google Cloud's blockchain infrastructure.
 
 ## 📞 Support
 
