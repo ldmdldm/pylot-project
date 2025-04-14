@@ -1,0 +1,62 @@
+# Web Framework
+fastapi==0.109.2
+uvicorn==0.27.1
+gunicorn==21.2.0
+
+# Blockchain and Web3
+web3==6.15.1
+eth-account==0.11.0
+eth-typing==3.5.2
+eth-utils==2.3.1
+
+# Google Cloud
+google-cloud-bigquery==3.17.2
+google-cloud-storage==2.14.0
+google-auth==2.27.0
+google-api-python-client==2.118.0
+google-cloud-logging==3.9.0
+
+# Database and Caching
+redis==5.0.1
+sqlalchemy==2.0.27
+
+# Async HTTP
+aiohttp==3.9.1
+requests==2.31.0
+
+# Utils
+python-dotenv==1.0.1
+pydantic==2.6.1
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# Monitoring and Logging
+prometheus-client==0.20.0
+opentelemetry-api==1.23.0
+opentelemetry-sdk==1.23.0
+opentelemetry-instrumentation-fastapi==0.44b0
+
+# Testing
+pytest==8.0.0
+pytest-asyncio==0.23.5
+pytest-cov==4.1.0
+
+# Environment and configuration
+pyyaml==6.0.1
+
+# Natural Language Processing for intent parsing
+nltk==3.8.1
+spacy==3.7.2
+
+# Data handling and analysis
+pandas==2.1.1
+numpy==1.26.1
+
+# HTTP and API interaction
+colorama==0.4.6
+
+# Development and testing
+black==23.10.1
+mypy==1.6.1
+pylint==3.0.2
+
