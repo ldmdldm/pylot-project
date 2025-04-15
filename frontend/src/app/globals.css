@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --paypal-blue: #003087;
+  --paypal-light-blue: #009cde;
+  --paypal-white: #ffffff;
+  --paypal-gray: #f5f5f5;
+  --paypal-dark-gray: #333333;
+}
+
+body {
+  background-color: var(--paypal-blue);
+  color: var(--paypal-white);
+  min-height: 100vh;
+}
+
+/* PayPal-like button styles */
+.btn-primary {
+  @apply bg-[#009cde] hover:bg-[#0070ba] text-white font-bold py-2 px-4 rounded-lg transition-colors duration-200;
+}
+
+.btn-secondary {
+  @apply bg-white hover:bg-gray-100 text-[#003087] font-bold py-2 px-4 rounded-lg transition-colors duration-200;
+}
+
+/* Card styles */
+.card {
+  @apply bg-white rounded-lg shadow-lg p-6 text-[#333333];
+}
+
+/* Input styles */
+.input {
+  @apply w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#009cde];
+}
+
+/* Container styles */
+.container {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+/* Navigation styles */
+.nav-link {
+  @apply text-white hover:text-[#009cde] transition-colors duration-200;
+}
+
+/* Footer styles */
+.footer {
+  @apply bg-[#002d8a] text-white py-8;
+}

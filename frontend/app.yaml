@@ -1,0 +1,36 @@
+runtime: nodejs20
+env: standard
+instance_class: F1
+
+env_variables:
+  NODE_ENV: "production"
+
+handlers:
+  - url: /_next/static/(.*)
+    static_files: .next/static/\1
+    upload: .next/static/.*
+    secure: always
+
+  - url: /_next/data/(.*)
+    static_files: .next/server/pages/data/\1
+    upload: .next/server/pages/data/.*
+    secure: always
+
+  - url: /public/(.*)
+    static_files: public/\1
+    upload: public/.*
+    secure: always
+
+  - url: /.*
+    script: auto
+    secure: always
+
+automatic_scaling:
+  target_cpu_utilization: 0.65
+  min_instances: 1
+  max_instances: 10
+
+build_env_variables:
+  GOOGLE_NODE_RUN_SCRIPTS: "build"
+
+entrypoint: npm run start 

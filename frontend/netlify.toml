@@ -1,0 +1,11 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  NEXT_PUBLIC_HARDHAT_RPC_URL = "http://127.0.0.1:8545"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
