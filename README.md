@@ -541,26 +541,6 @@ cp .env.example .env
 python src/main.py
 ```
 
-## 🤝 Contributing
-
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🏆 Hackathon Submission
-
-This project is submitted for the PayPal and Google Cloud Web3 Hackathon. It demonstrates the powerful combination of PYUSD's stability and security with Google Cloud's blockchain infrastructure.
-
-## 📞 Support
-
-For questions or support, please join the Stackup Discord and head to the #gcp-rpc-bounty channel.
-
----
-
-Built for the PayPal and Google Cloud Web3 Hackathon
-
 ## 🔗 Blockchain Integration & PYUSD Features
 
 ### PYUSD Integration Details
@@ -1083,3 +1063,22 @@ Built for the PayPal and Google Cloud Web3 Hackathon
            return await self.bigquery.query(query)
    ```
 
+## 🤝 Contributing
+
+We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🏆 Hackathon Submission
+
+This project is submitted for the PayPal and Google Cloud Web3 Hackathon. It demonstrates the powerful combination of PYUSD's stability and security with Google Cloud's blockchain infrastructure.
+
+## 📞 Support
+
+For questions or support, please join the Stackup Discord and head to the #gcp-rpc-bounty channel.
+
+---
+
+Built for the PayPal and Google Cloud Web3 Hackathon
